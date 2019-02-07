@@ -1,6 +1,9 @@
 <!DOCTYPE>
 <html>
-<title>Group2</title>
+<title>Result</title>
+<head>
+	<h1><center>Simple Calculator using HTML and PHP</center></h1>
+</head>
 <body>
 	
 	<?php
@@ -10,8 +13,10 @@
 	 $sum = $number1 + $number2;
 
 	 ?>
-		
-	<?php echo "The sum of ".$number1. " & " .$number2. " is "  . $sum;?>
+	<center>
+		<?php echo "The sum of ".$number1. " & " .$number2. " is "  . $sum;?>
+	</center>	
+	
 
 </body>
 </html>
